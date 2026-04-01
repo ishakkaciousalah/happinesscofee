@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/flowbite@latest/dist/flowbite.min.js"></script>
-    <link rel="" href="#./bc.html">
+    <link rel="stylesheet" href="./ig.html">
+    <link rel="stylesheet" href="./bc.html">
+    <link rel="stylesheet" href="./cm.html">
+
     <title>Happiness-Coffee</title>
 </head>
 <body>
@@ -38,7 +41,7 @@
 </nav>
 <section id="Home" class="bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085')] bg-cover bg-center h-screen flex items-center justify-center">
   
-  <div class="bg-black/50 p-10 rounded-xl text-center">
+  <div class="bg-black/50 p-10 rounded-xl text-center hover:bg-yellow-500 transition duration-300">
     <h1 class="text-white text-4xl font-bold mb-4">
       Happiness Coffee ☕
     </h1>
@@ -49,45 +52,74 @@
 </section>
 <section id="menu" class="bg-[url('cofeee.jpeg')] bg-cover bg-center h-screen flex items-center justify-center">
   
-  <div class="bg-black/50 pb-20 pr-20 pl-20 rounded-xl text-start">
-    <h1 class="text-white text-4xl font-bold mb-4 pl-15">
+  <div class="bg-black/50 pb-20 pr-20 pl-20 pt-10 rounded-xl text-start">
+    <h1 class="text-white text-4xl font-bold mb-4 pb-5 text-center">
       Our Menu </h1>
-    <div  class="bg-white/50 rounded-lg p-3">
-      <a href="bc.html">Boissons Chaudes / Jus presses /Cafe</a>
+    <div  class="bg-white/50 rounded-lg p-3 text-center hover:bg-yellow-500 transition duration-300 ">
+      <a href="bc.html" >Nos Boissons</a>
     </div>
 
-    <div  class="bg-white/50 rounded-lg p-3 mt-4">
-      <h4>Pancakes/Gaufres/Crepes/Fondants</h4>  
+    <div  class="bg-white/50 rounded-lg p-3 mt-4 text-center hover:bg-yellow-500 transition duration-300  ">
+      <a href="ig.html">Instant Gourmand</a> 
 
     </div>
-    <div  class="bg-white/50 rounded-lg p-3 mt-4">
-      <h4>Milkshakes / Frappes</h4>
-    </div>
+
     <div>
-      <div  class="bg-white/50 rounded-lg p-3 mt-4">
-          <h4>Cocktails / Mocktails</h4>
+      <div  class="bg-white/50 rounded-lg p-3 mt-4 text-center hover:bg-yellow-500 transition duration-300  ">
+          <a href="cm.html"> Cocktails & Mocktails</a> 
     </div>
 
   </div>
       
 
 </section>
-<section id="contact" class="bg-[url('https://cdn.pixabay.com/photo/2016/03/05/22/16/coffee-1239226_1280.jpg')] bg-cover bg-center h-screen flex items-center justify-center">
+<section id="contact" class="bg-[url('https://cdn.pixabay.com/photo/2016/03/05/22/16/coffee-1239226_1280.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center">
   
-  <div class="bg-black/50 p-10 rounded-xl text-center flex flex-col items-center justify-center gap-4">
-    <h1 class="text-white text-4xl font-bold mb-4">Contact Us</h1>
+  <div class="bg-black/70 backdrop-blur-md p-10 rounded-2xl text-center 
+  flex flex-col items-center gap-6 shadow-xl">
+    <h1 class="text-white text-4xl font-bold tracking-wide">Contact Us</h1>
     
-    <a href="https://maps.app.goo.gl/mgyae8wBL6nzabTq7" target="_blank" class="text-white underline">Google Map</a>
-    <a href="https://www.instagram.com/happiness_c0ffee/" target="_blank" class="text-white underline">Instagram</a>
-  </div>
+    <a href="https://maps.app.goo.gl/mgyae8wBL6nzabTq7" target="_blank"
+      class="px-5 py-2 bg-white text-black rounded-lg font-semibold 
+      hover:bg-yellow-400 transition">
+        📍 Google Map
+      </a>
+ <a href="https://www.instagram.com/happiness_c0ffee/" target="_blank"
+      class="px-5 py-2 border border-white rounded-lg bg-white 
+      hover:bg-yellow-400 hover:text-black transition">
+        📸 Instagram
+      </a>  </div>
 
 </section>
-<footer>
-  <div class="bg-black p-4 text-center text-white">
-    &copy; 2026 Happiness Coffee. All rights reserved.   Happiness Coffee is a fictional brand created for demonstration purposes. Any resemblance to real businesses is purely coincidental.
-  </div>
-</footer>
+<footer class="bg-black text-gray-400 border-t border-gray-800">
+  
+  <div class="max-w-6xl mx-auto px-4 py-8 text-center space-y-4">
 
+    <h2 class="text-white text-xl font-semibold">
+      Happiness Coffee ☕
+    </h2>
+
+    <p class="text-sm">
+      Your daily dose of happiness in every cup.
+    </p>
+
+    <div class="flex justify-center gap-6 text-sm">
+      <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+      <a href="#" class="hover:text-yellow-400 transition">Menu</a>
+      <a href="#" class="hover:text-yellow-400 transition">About</a>
+    </div>
+
+    <p class="text-xs text-gray-500 mt-4">
+      &copy; 2026 Happiness Coffee. All rights reserved.
+    </p>
+
+    <p class="text-xs text-gray-600">
+      This is a fictional brand created for educational purposes.
+    </p>
+
+  </div>
+
+</footer>
 
 
 </body>
